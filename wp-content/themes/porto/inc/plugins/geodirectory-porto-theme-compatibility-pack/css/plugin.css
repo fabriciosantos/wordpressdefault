@@ -1,0 +1,201 @@
+/* GeoDirectory Style Modifications for Porto - Version 1.0.0 */
+
+/* General Widget */
+.geodir_full_page section.widget {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wpgeo-porto .geodir_category_list_view li.gridview_onehalf {
+    border-width: 1px;
+}
+
+/* Top Section */
+.geo-porto-top-section {
+    margin-bottom: 15px;
+}
+.geo-porto-top-section .geodir-category-list-in {
+    margin-top: 0;
+}
+.geo-porto-top-section .top_banner_section {
+    margin-bottom: 0;
+}
+.geo-porto-top-section .geodir-loc-bar {
+    margin: 0;
+}
+
+/* Popular Post Category Widget */
+.geodir_full_page .geodir-cat-list ul li {
+    width: auto;
+}
+.geodir-cat-list ul li img {
+    margin-right: 3px;
+}
+
+/* GMap Widget */
+.geodir_map_container .main_list img {
+    margin-right: 3px;
+}
+.map_category {
+    min-width: 180px;
+}
+.map_category input[type="text"] {
+    color: #777;
+}
+.geodir-cat-list ul,
+.map_category ul {
+    padding-left: 0;
+}
+.geodir-cat-list ul li,
+.map_category ul li {
+    list-style-type: none;
+}
+.map-category-listing-main .trigger {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.geodir-sidebar-wrap .geodir_map_container {
+    width: 100% !important;
+}
+.main_map_wrapper,
+.geodir_marker_cluster {
+    width: 100% !important;
+}
+.geodir_map_container.stickymap {
+    min-width: 264px;
+}
+
+/* Search Widget */
+.geodir-listing-search {
+    text-align: center;
+}
+.geodir-search {
+    float: none;
+    margin: 0;
+}
+.geodir-search select,
+.geodir-search .search_by_post,
+.geodir-search input[type="text"],
+.geodir-search button[type="button"],
+.geodir-search input[type="button"],
+.geodir-search input[type="submit"] {
+    display: inline-block;
+    float: none;
+    vertical-align: bottom;
+}
+.geodir-search button[type="button"],
+.geodir-search input[type="button"],
+.geodir-search input[type="submit"],
+#geodir-wrapper button[type="button"],
+#geodir-wrapper input[type="button"],
+#geodir-wrapper input[type="submit"] {
+    padding: 4px 8px;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+    color: #ffffff;
+    border-radius: 3px;
+    vertical-align: bottom;
+    font-size: 1em;
+}
+.geodir-search button[type="button"]:hover,
+.geodir-search input[type="button"]:hover,
+.geodir-search input[type="submit"]:hover,
+#geodir-wrapper button[type="button"]:hover,
+#geodir-wrapper input[type="button"]:hover,
+#geodir-wrapper input[type="submit"]:hover {
+    background: #0077b3;
+    border: 1px solid #0077b3;
+}
+
+@media (max-width: 480px) {
+    .geodir-search select,
+    .geodir-search .search_by_post,
+    .geodir-search input[type="text"],
+    .geodir-search button[type="button"],
+    .geodir-search input[type="button"],
+    .geodir-search input[type="submit"] {
+        width: 96%;
+        margin: 5px 2%;
+    }
+}
+
+.geodir-sidebar-left {
+    float: left;
+}
+.top-menu li > div {
+    visibility: visible;
+}
+.geodir-chosen-container-single .chosen-single {
+    height: auto;
+}
+ul li#menu-item-gd-location-switcher ul {
+    width: 222px;
+}
+ul li#menu-item-gd-location-switcher ul li{
+    padding-right: 0!important;
+}
+#mobile-nav li#mobile-menu-item-gd-location-switcher li a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu-item-gd-location-switcher dd,
+#mobile-menu-item-gd-location-switcher {
+    margin-left: 0;
+}
+#menu-item-gd-location-switcher dd a {
+    display: block;
+}
+.geodir-chosen-container .chosen-results li.highlighted {
+    background-color: #eee;
+    background-image: none;
+    color: #444;
+}
+#mobile-nav li.mobile-nav-item li a:before {
+    content: '';
+    margin: 0;
+}
+#mobile-nav li.mobile-nav-item li a {
+    padding: 10px;
+    width: auto;
+}
+.geodir_full_page .top_banner_section {
+    margin-bottom: 0;
+}
+.geodir-category-list-in {
+    margin: 0;
+    padding: 15px;
+}
+.geodir_full_page .geodir-cat-list .widget-title {
+    margin-top: 0;
+}
+.geodir_full_page .geodir-cat-list ul li {
+    padding-left: 0;
+}
+.geodir-loc-bar {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.geodir-loc-bar-in {
+    padding: 15px 0;
+}
+
+.gd_rating {
+    margin-bottom: 20px;
+}
+.gd-rating-text {
+    display: inline-block;
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+.gd-rating-text .rating {
+    display: inline-block;
+    margin: 0 8px 0 3px;
+}
+.geodir-rating {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#geodir-wrapper .comment-respond {
+    padding-top: 0;
+}
